@@ -1,0 +1,35 @@
+/**
+	@name com.justep.baas.action.CRUD
+	@model Baas
+	@category java
+	@class 
+	@description 通用CRUD action
+*/
+
+/**
+	@name com.justep.baas.action.CRUD.sqlQuery
+	@function
+	@description sql查询
+	@param {com.alibaba.fastjson.JSONObject} params sql查询参数
+	@param {com.justep.baas.action.ActionContext#ActionContext} context 执行action的上下文
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.action.CRUD.query
+	@function
+	@description 通用查询
+	@param {com.alibaba.fastjson.JSONObject} params 通用查询参数
+	@param {com.justep.baas.action.ActionContext#ActionContext} context 执行action的上下文
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.action.CRUD.save
+	@function
+	@description 通用保存
+	@param {com.alibaba.fastjson.JSONObject} params 通用保存参数
+	@param {com.justep.baas.action.ActionContext#ActionContext} context 执行action的上下文
+	@returns {void}
+*/
+	

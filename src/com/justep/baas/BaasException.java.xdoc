@@ -1,0 +1,24 @@
+/**
+	@name com.justep.baas.BaasException
+	@model Baas
+	@category java
+	@class 
+	@description Baas异常类
+*/
+
+/**
+	@name com.justep.baas.BaasException#BaasException
+	@function
+	@description 构造函数
+	@param {String} message 详细消息
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.BaasException#BaasException
+	@function
+	@description 构造函数
+	@param {String} message 详细消息
+	@param {Throwable} cause  原因
+	@returns {void}
+*/

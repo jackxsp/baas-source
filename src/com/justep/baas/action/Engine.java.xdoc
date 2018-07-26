@@ -1,0 +1,26 @@
+/**
+	@name com.justep.baas.action.Engine
+	@model Baas
+	@category java
+	@class 
+	@description Baas异常类
+*/
+
+/**
+	@name com.justep.baas.action.Engine.execAction
+	@function
+	@description 执行action
+	@param {String｝ actionPath action路径 
+	@param {com.alibaba.fastjson.JSONObject} params 执行action给出的参数 
+	@param {com.justep.baas.action.ActionContext#ActionContext} context 执行action的上下文，当为null时action自动创建，当嵌套调用action可以传递context实现统一事务
+	@returns {com.alibaba.fastjson.JSONObject}
+*/
+
+/**
+	@name com.justep.baas.action.Engine.execAction
+	@function
+	@description 执行action
+	@param {String｝ actionPath action路径 
+	@param {com.alibaba.fastjson.JSONObject} params 执行action给出的参数 
+	@returns {com.alibaba.fastjson.JSONObject}
+*/

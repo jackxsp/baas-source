@@ -1,0 +1,82 @@
+/**
+	@name com.justep.baas.action.ActionContext
+	@model Baas
+	@category java
+	@class 
+	@description Action执行环境
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#ActionContext
+	@function
+	@description 构造函数
+	@param {com.alibaba.fastjson.JSONObject} DBConfig 数据库配置
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext.REQUEST
+	@constant
+	@description request
+*/	
+
+/**
+	@name com.justep.baas.action.ActionContext.RESPONSE
+	@constant
+	@description response
+*/	
+
+/**
+	@name com.justep.baas.action.ActionContext#getConnection
+	@function
+	@param {String} name 数据源名称
+	@description 获取数据连接对象,不需要开发者主动关闭和数据事务提交回滚
+	@returns {java.sql.Connection}
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#newConnection
+	@function
+	@param {String} name 数据源名称
+	@description 创建数据连接对象，需要开发者自己显示close关闭连接
+	@returns {java.sql.Connection}
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#get
+	@function
+	@param {String} key 获取上下文数据的键
+	@description 获取上下文数据
+	@returns {Object}
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#clear
+	@function
+	@description 清除上下文所有数据
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#containsKey
+	@function
+	@param {String} key 获取上下文数据的键
+	@description 判断对应key的上下文数据是否存在
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#commit
+	@function
+	@description 当前action执行中所有的数据进行提交，通常情况下不需要调用，action执行完成后统一事务提交，只有使用newConnection获取的数据连接需要调用
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#rollback
+	@function
+	@description 当前action执行中所有的数据进行回滚，通常情况下不需要调用，action执行失败后统一事务回滚，只有使用newConnection获取的数据连接需要调用
+*/
+
+/**
+	@name com.justep.baas.action.ActionContext#closeConnection
+	@function
+	@description 当前action执行中所有数据连接关闭，通常情况下不需要调用，action执行完成后自动完成
+*/

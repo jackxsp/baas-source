@@ -1,0 +1,24 @@
+/**
+	@name com.justep.baas.action.ActionException
+	@model Baas
+	@category java
+	@class 
+	@description Baas action执行异常类
+*/
+
+/**
+	@name com.justep.baas.action.ActionException#ActionException
+	@function
+	@description 构造函数
+	@param {String} message 详细消息
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.action.ActionException#ActionException
+	@function
+	@description 构造函数
+	@param {String} message 详细消息
+	@param {Throwable} cause  原因
+	@returns {void}
+*/

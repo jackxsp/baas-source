@@ -1,0 +1,205 @@
+/**
+	@name com.justep.baas.Utils
+	@model Baas
+	@category java
+	@class 
+	@description 
+*/
+
+/**
+	@name com.justep.baas.Utils.getLineSep
+	@function
+	@description 获取行分隔符
+	@returns {String}
+*/
+
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4
+	@returns {void}
+*/
+
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@param {Object} msg6  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5+msg6
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@param {Object} msg6  条件不成立时的提示信息
+	@param {Object} msg7  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5+msg6+msg7
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@param {Object} msg6  条件不成立时的提示信息
+	@param {Object} msg7  条件不成立时的提示信息
+	@param {Object} msg8  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5+msg6+msg7+msg8
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@param {Object} msg6  条件不成立时的提示信息
+	@param {Object} msg7  条件不成立时的提示信息
+	@param {Object} msg8  条件不成立时的提示信息
+	@param {Object} msg9  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5+msg6+msg7+msg8+msg9
+	@returns {void}
+*/
+
+
+/**
+	@name com.justep.baas.Utils.check
+	@function
+	@description 检查条件是否成立
+	@param {boolean} isOK 条件
+	@param {Object} msg1  条件不成立时的提示信息
+	@param {Object} msg2  条件不成立时的提示信息
+	@param {Object} msg3  条件不成立时的提示信息
+	@param {Object} msg4  条件不成立时的提示信息
+	@param {Object} msg5  条件不成立时的提示信息
+	@param {Object} msg6  条件不成立时的提示信息
+	@param {Object} msg7  条件不成立时的提示信息
+	@param {Object} msg8  条件不成立时的提示信息
+	@param {Object} msg9  条件不成立时的提示信息
+	@param {Object} msg10  条件不成立时的提示信息
+	@throws {com.justep.exception.BusinessException} msg1+msg2+msg3+msg4+msg5+msg6+msg7+msg8+msg9+msg10
+	@returns {void}
+*/
+
+/**
+	@name com.justep.baas.Utils.isNotEmptyString
+	@function
+	@description 判断指定的字符串不是null或""
+	@param {String} obj 检查的字符串  
+	@returns {boolean}
+*/
+
+
+
+/**
+	@name com.justep.baas.Utils.isEmptyString
+	@function
+	@description 判断指定的字符串是null或""
+	@param {String} obj 检查的字符串  
+	@returns {Boolean}
+*/
+
+/**
+	@name com.justep.baas.Utils.isNull
+	@function
+	@description 判断指定的值是null
+	@param {Object} obj 检查的值
+	@returns {Boolean}
+*/
+
+/**
+	@name com.justep.baas.Utils.isNotNull
+	@function
+	@description 判断指定的值不是null
+	@param {Object} obj 检查的值
+	@returns {Boolean}
+*/
+
+/**
+	@name com.justep.baas.Utils.buildString
+	@function
+	@description 生成字符串
+	@param {Object} obj... 多个参数，如：buildString("A","B","C")
+	@returns {String}
+*/
+	
